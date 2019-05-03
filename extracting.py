@@ -2,16 +2,13 @@ import chess.pgn
 import pandas as pd
 import numpy as np
 from math import ceil
-import time
 
-start_time=time.time()
-
-stockfish = pd.read_csv(r'C:\Users\Asus\stockfish.csv')
+stockfish = pd.read_csv('data\stockfish.csv')
 stockfish.MoveScores = stockfish.MoveScores.str.replace('NA','').str.split()
 stockfish.MoveScores = stockfish.MoveScores.apply(lambda x: list(map(int, x)))
 stockfish.drop("Event",axis=1,inplace=True)
 
-def get_games(filename="D:\Учеба\8 семестр\ДИПЛОМ\Данные\data.pgn"):
+def get_games(filename="data\data.pgn"):
     with open(filename) as pgn:
         game = chess.pgn.read_game(pgn)
         cnt = 0
@@ -20,7 +17,6 @@ def get_games(filename="D:\Учеба\8 семестр\ДИПЛОМ\Данные
             yield game
             game = chess.pgn.read_game(pgn)
 
-
 games = get_games()
 
 white_elos = []
@@ -28,8 +24,6 @@ black_elos = []
 results = []
 moves = []
 counts=[]
-
-for_debug=0
 
 for game in games:
     if 'WhiteElo' in game.headers:
@@ -55,16 +49,13 @@ for game in games:
 
     counts.append(count)
     moves.append(sans)
-    print("Обработана игра №",for_debug)
-    for_debug+=1
 
-print("time: {:3f} min".format((time.time()-start_time)//60))
 df=pd.DataFrame(np.column_stack([results,moves,stockfish.MoveScores,counts]),
                 columns=['Result','Moves','Scores','NumMoves'])
 
-df.to_csv(r'C:\Users\Asus\games.csv', sep=',',index=False)
+df.to_csv(r'data\games.csv', sep=',',index=False)
 
 elos=pd.DataFrame(np.column_stack([white_elos,black_elos]),
                 columns=['WhiteELo','BlackElo'])
 
-elos.to_csv(r'C:\Users\Asus\elos.csv', sep=',',index=False)
+elos.to_csv(r'data\elos.csv', sep=',',index=False)
