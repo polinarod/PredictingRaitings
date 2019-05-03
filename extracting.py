@@ -57,5 +57,4 @@ df.to_csv(r'data\games.csv', sep=',',index=False)
 
 elos=pd.DataFrame(np.column_stack([white_elos,black_elos]),
                 columns=['WhiteElo','BlackElo'])
-
 elos.to_csv(r'data\elos.csv', sep=',',index=False)
