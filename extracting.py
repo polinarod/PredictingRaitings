@@ -56,6 +56,6 @@ df=pd.DataFrame(np.column_stack([results,moves,stockfish.MoveScores,counts]),
 df.to_csv(r'data\games.csv', sep=',',index=False)
 
 elos=pd.DataFrame(np.column_stack([white_elos,black_elos]),
-                columns=['WhiteELo','BlackElo'])
+                columns=['WhiteElo','BlackElo'])
 
 elos.to_csv(r'data\elos.csv', sep=',',index=False)
