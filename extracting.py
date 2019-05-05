@@ -23,6 +23,7 @@ white_elos = []
 black_elos = []
 results = []
 moves = []
+uci_moves=[]
 counts=[]
 
 for game in games:
@@ -34,24 +35,28 @@ for game in games:
 
     node = game.variation(0)
     sans = []
+    uci=[]
     count = 0
 
     while node.variations:
         board = node.board()
         count += 1
         sans.append(node.san())
+        uci.append(node.uci())
         node = node.variations[0]
 
     board = node.board()
     count += 1
     sans.append(node.san())
+    uci.append(node.uci())
     count = ceil(count / 2)
 
     counts.append(count)
     moves.append(sans)
+    uci_moves.append(uci)
 
-df=pd.DataFrame(np.column_stack([results,moves,stockfish.MoveScores,counts]),
-                columns=['Result','Moves','Scores','NumMoves'])
+df=pd.DataFrame(np.column_stack([results,moves,uci_moves,stockfish.MoveScores,counts]),
+                columns=['Result','Moves','UCI','Scores','NumMoves'])
 
 df.to_csv(r'data\games.csv', sep=',',index=False)
 
