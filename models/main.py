@@ -1,4 +1,5 @@
 import chess.pgn
+import chess.engine
 import pandas as pd
 import numpy as np
 from math import ceil
