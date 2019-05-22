@@ -144,3 +144,4 @@ dmypy.json
 /lr_sum.pkl
 /lr_sum1.pkl
 /features.py
+/voting_class.pkl
