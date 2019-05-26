@@ -11,12 +11,16 @@ def get_games(filename):
         game = chess.pgn.read_game(pgn)
         yield game
         '''
+        cnt =1
         while game:
-            yield game
-            game = chess.pgn.read_game(pgn) '''
+            cnt +=1
+            if cnt==3:
+                 yield game
+            game = chess.pgn.read_game(pgn)
+        '''
 
 def main():
-
+# Создать pgn самостоятельно!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     engine = chess.engine.SimpleEngine.popen_uci(r'C:\Users\Asus\PredictingRatings\stockfish-10-win\Windows\stockfish_10_x64.exe')
 
     # Из extracting.py
@@ -32,6 +36,7 @@ def main():
     move_scores=[]
 
     for game in games:
+        print(game)
         if 'WhiteElo' in game.headers:
             white_elos.append(game.headers['WhiteElo'])
         if 'BlackElo' in game.headers:
@@ -50,9 +55,6 @@ def main():
             uci.append(node.uci())
             if count >0:
                 an_scores = engine.analyse(board, chess.engine.Limit(time=100,nodes=1,depth=15))
-               # if count %2==1:
-                 #   score=int(str(an_scores['score'].black()).strip('#'))
-              #  else:
                 score = int(str(an_scores['score'].pov(color=True)).strip('#'))
                 scores.append(score)
 
@@ -64,9 +66,7 @@ def main():
         uci.append(node.uci())
         count = ceil(count / 2)
         an_scores = engine.analyse(board, chess.engine.Limit(time=100,nodes=1,depth=15))
-      #  if count % 2 == 1:
-       #     score = int(str(an_scores['score'].black()).strip('#'))
-       # else:
+
         score = int(str(an_scores['score'].pov(color=True)).strip('#'))
         scores.append(score)
         scores.append(score)
@@ -86,7 +86,16 @@ def main():
         print('Counts',len(counts))
         print(counts)
 
+        data=pd.DataFrame(np.column_stack(results),columns=['Result'])
+        data['Moves']=moves
+        data['UCI']=uci_moves
+        data['Scores']=move_scores
+        data['NumMoves']=counts
 
+        elos = pd.DataFrame(np.column_stack([white_elos, black_elos]),
+                            columns=['WhiteElo', 'BlackElo'])
+
+        # Из exploring.ipynb
 
 if __name__ == "__main__":
     main()
