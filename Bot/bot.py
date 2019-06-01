@@ -1,7 +1,7 @@
 import logging
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
-#import telegram.files as tfile
-#import app_test
+import requests
+from app import get_rating
 
 # Enable logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -9,27 +9,39 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 
 logger = logging.getLogger(__name__)
 
+token='846868641:AAFtwHuP6yme_nRtAfgIIPilVNyQcEXaTgw'
+
 # Обработка команд
 def startCommand(bot, update):
     bot.send_message(chat_id=update.message.chat_id, text='Отправьте мне Ваши партии в формате pgn')
 
 def textMessage(bot, update):
     response = 'Пожалуйста, отправьте партии'
+    response=update.message.text
     bot.send_message(chat_id=update.message.chat_id, text=response)
+
 
 def fileMessage(bot, update):
     response = 'Обрабатываю Ваши партии...'
     bot.send_message(chat_id=update.message.chat_id, text=response)
-    test_response='Просто посмотреть, что присылает на отправку файла' + update.message.text
-    bot.send_message(chat_id=update.message.chat_id, text=test_response)
-    #app.get_rating(update.message.docu)
+    pgn_id=update.message.document.file_id
+
+    file = bot.get_file(pgn_id)
+    file.download('game.pgn')
+    
+    get_rating('game.pgn')
+
+   # test_response=requests.get('https://api.telegram.org/file/bot'+token+'/getFile?file_id='+pgn_id)
+    #https: // api.telegram.org / bot846868641: AAFtwHuP6yme_nRtAfgIIPilVNyQcEXaTgw / documents / file_0.pgn
+   # bot.send_message(chat_id=update.message.chat_id, text=str(test_response))
+
 
 def error(update, context):
     logger.warning('Update "%s" caused error "%s"', update, context.error)
 
 def main():
 
-    updater = Updater(token='846868641:AAFtwHuP6yme_nRtAfgIIPilVNyQcEXaTgw') # Токен API к Telegram
+    updater = Updater(token=token) # Токен API к Telegram
     dispatcher = updater.dispatcher
     start_command_handler = CommandHandler('start', startCommand)
     text_message_handler = MessageHandler(Filters.text, textMessage)
