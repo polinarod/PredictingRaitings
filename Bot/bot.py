@@ -2,6 +2,7 @@ import logging
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import requests
 from app import get_rating
+from app_test import test_rating
 
 # Enable logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -28,7 +29,7 @@ def fileMessage(bot, update):
 
     file = bot.get_file(pgn_id)
     file.download('game.pgn')
-    
+
     get_rating('game.pgn')
 
    # test_response=requests.get('https://api.telegram.org/file/bot'+token+'/getFile?file_id='+pgn_id)

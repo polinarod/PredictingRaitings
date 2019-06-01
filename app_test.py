@@ -1,6 +1,6 @@
 import chess.pgn
 
-def get_rating(filename):
+def test_rating(filename):
     with open(filename) as pgn:
         game = chess.pgn.read_game(pgn)
 
