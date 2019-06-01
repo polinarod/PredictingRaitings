@@ -15,7 +15,7 @@ def get_games(filename):
        #     yield game
        #     game = chess.pgn.read_game(pgn)
 
-def main(mode):
+def get_rating(mode='cheater'):
     engine = chess.engine.SimpleEngine.popen_uci(r'C:\Users\Asus\PredictingRatings\stockfish-10-win\Windows\stockfish_10_x64.exe')
 
     # Из extracting.py
@@ -513,5 +513,5 @@ def main(mode):
         print(elos.BlackElo[0], ' - ',black_rating)
 
 '''
-if __name__ == "__main__":
-    main('cheater')
+#if __name__ == "__main__":
+    #main('cheater')
