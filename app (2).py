@@ -12,7 +12,10 @@ def get_rating(filename,mode='ratings'):
     engine = chess.engine.SimpleEngine.popen_uci(r'/Users/admin/Desktop/Polina/PredictingRatings-master/stockfish-10-mac/Mac/stockfish-10-64')
 
     with open(filename) as pgn:
-        game = chess.pgn.read_game(pgn)
+        try:
+            game = chess.pgn.read_game(pgn)
+        except:
+            return 'Неправильный файл'
 
     moves = []
     uci_moves = []

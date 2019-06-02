@@ -458,5 +458,14 @@ def get_rating(filename,mode='ratings'):
     result = 'Рейтинг белых: '+str(int(white_rating[0]))+'\nРейтинг черных: '+str(int(black_rating[0]))
     return result
 
-ratings=get_rating(r'C:\Users\Asus\PredictingRatings\test_data\for_bot1.pgn','ratings')
-print(ratings)
+for i in range(11):
+    file='fr'+str(i+1)+'.pgn'
+    path='C:\\Users\\Asus\\PredictingRatings\\test_data\\'+file
+    if file!='fr4.pgn':
+        names=get_rating(path, 'names')
+        print(names)
+        current = get_rating(path, 'current')
+        print(current)
+        ratings = get_rating(path, 'ratings')
+        print(ratings)
+    print('\n\n')

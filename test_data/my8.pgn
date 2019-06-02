@@ -1,0 +1,31 @@
+[Event "Первенство Мира 2012"]
+[Site "?"]
+[Date "2012.11.15"]
+[Round "8"]
+[White "Styazhkina"]
+[Black "Rodionova"]
+[Result "1-0"]
+[ECO "B38"]
+[WhiteElo "2113"]
+[BlackElo "2040"]
+[Annotator "Doe,John"]
+[PlyCount "81"]
+[EventDate "2012.??.??"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. c4 Bg7 6. Be3 Nf6 7. Nc3 d6 8. Be2
+O-O 9. O-O Bd7 10. f3 (10. Nc2 Be6 11. f3 Nd7 12. Qd2 Qa5 $11) 10... Nxd4 11.
+Bxd4 a5 12. Rc1 Bc6 13. Qd2 Nd7 14. Bxg7 $6 (14. Be3 a4 15. b3 axb3 16. axb3
+Nc5 $15) 14... Kxg7 15. Rfd1 (15. Qd4+ Kg8 16. f4 Qb6 17. Qxb6 Nxb6 18. Nd5
+Nxd5 19. exd5 Bd7 $14) 15... Qb6+ 16. Kh1 Kg8 $6 (16... a4 $5) (16... Nc5 17.
+Qd4+ Kg8 18. e5 Qxb2 19. exd6 exd6 20. Qxd6 Rad8 21. Qxc5 (21. Qxd8 Rxd8 22.
+Rxd8+ Kg7 23. Rdd1 Na4 $17) 21... Rxd1+ 22. Rxd1 Qxc3 $15) 17. b3 Rfc8 18. f4
+a4 19. Bg4 e6 (19... Rd8 $5 20. Bxd7 Rxd7 21. bxa4 Bxa4 22. Nd5 Qa5 $11) 20.
+Qxd6 Nc5 21. b4 (21. bxa4 Rd8 22. Qe7 Nd3 $17) (21. f5 Rd8 22. Qe7 exf5 23.
+exf5 Nd3 $17) 21... Qxb4 22. Nd5 (22. Be2 Rd8 23. Qxd8+ Rxd8 24. Rxd8+ Kg7 25.
+e5 Qb2 $17) 22... exd5 23. Bxc8 Rxc8 24. cxd5 Be8 25. h3 b6 26. Qe7 Qb5 27. d6
+(27. f5 Qe2 28. fxg6 hxg6 29. d6 Bd7 $17) 27... Bd7 28. e5 Re8 29. Qh4 Qb2 30.
+Rb1 Qxa2 31. Rxb6 Qc2 32. Rf1 (32. Ra1 Nd3 33. Qg3 Qc3 34. Rbb1 Qd4 $17) 32...
+a3 33. Qg3 a2 34. Qa3 Qe2 $4 (34... Na4 $5 35. Rb4 Bc6 36. Rg1 Ra8 $19) 35. Ra1
+Na4 $2 (35... Nd3 36. Qxa2 Qe4 37. Rf1 Nxf4 $17) 36. Rb4 Bc6 37. Qxa2 Qxa2 38.
+Rxa2 Nc3 39. Rc2 Nd5 40. Rd4 Ba8 (40... Bb7 41. d7 Rd8 42. Rxd5 $18) 41. d7 1-0
+

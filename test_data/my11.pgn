@@ -1,0 +1,24 @@
+[Event "Первенство Мира 2012"]
+[Site "?"]
+[Date "2012.11.18"]
+[Round "11"]
+[White "Xiao"]
+[Black "Rodionova"]
+[Result "0-1"]
+[ECO "E62"]
+[WhiteElo "2136"]
+[BlackElo "2040"]
+[Annotator "Doe,John"]
+[PlyCount "96"]
+[EventDate "2012.??.??"]
+
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 O-O 5. Nc3 d6 6. Nf3 Nc6 7. d5 Na5 8. Nd2
+Nd7 (8... c6 9. O-O (9. b4 Ng4 10. Bb2 Qb6 $19) 9... cxd5 10. cxd5 Bd7 11. b4
+Rc8) 9. e4 c6 10. O-O cxd5 11. Nxd5 Nb6 12. Qe2 Na4 13. Rb1 Be6 14. b4 Nc6 15.
+Qd3 a6 16. Qc2 Nb6 17. Bb2 Bxb2 18. Qxb2 Ne5 19. Qd4 Nbd7 20. f4 Nc6 21. Qf2 a5
+22. b5 Bxd5 23. cxd5 Nb4 24. a3 Nd3 25. Qe2 N3c5 26. e5 Nb6 27. Rbd1 Nca4 28.
+Ne4 Rc8 29. exd6 exd6 30. f5 Nc3 31. Nxc3 Rxc3 32. Qd2 Rxa3 33. f6 Kh8 34. Qh6
+Rg8 35. Rd4 Qf8 36. Qc1 Rb3 37. Rh4 a4 38. Rff4 g5 39. Be4 Rg6 40. Bxg6 fxg6
+41. f7 Nd7 42. Qa1+ Ne5 43. Rhg4 gxf4 44. gxf4 Qxf7 45. fxe5 Qf5 46. exd6+ Kg8
+47. Qxa4 Qb1+ 48. Kf2 Qc2+ 0-1
+

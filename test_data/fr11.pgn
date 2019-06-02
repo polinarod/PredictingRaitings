@@ -1,0 +1,20 @@
+[Site "St Petersburg RUS"]
+[Date "2017.03.28"]
+[Round "-"]
+[White "Fraiman,Dmitry"]
+[Black "Alekseenko,K"]
+[Result "0-1"]
+[BlackTitle "GM"]
+[Opening "Sicilian"]
+[Variation "Najdorf, Lipnitzky attack"]
+[BlackElo "2588"]
+[ECO "B90"]
+[EventDate "2017.03.18"]
+[WhiteElo "2255"]
+[BlackFideId "4135539"]
+[WhiteFideId "34100641"]
+
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Bc4 e6 7.Bb3 Nbd7 8.Be3
+Nc5 9.f3 b5 10.Qd2 Bd7 11.O-O-O b4 12.Nce2 a5 13.Kb1 Qc8 14.c3 a4 15.cxb4
+Ncxe4 16.fxe4 axb3 17.Nxb3 Qc4 18.e5 dxe5 19.Bc5 Bxc5 20.bxc5 Bc6 21.Nc3
+Ne4 22.Qe3 Nxc3+ 23.bxc3 Be4+ 24.Kb2 Qa4 25.Nc1 Qc2+   0-1

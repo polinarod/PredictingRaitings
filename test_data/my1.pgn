@@ -1,0 +1,35 @@
+[Event "Первенство Мира 2012"]
+[Site "?"]
+[Date "2012.11.08"]
+[Round "1"]
+[White "Poteat, Lilia"]
+[Black "Rodionova"]
+[Result "0-1"]
+[ECO "B35"]
+[WhiteElo "1766"]
+[BlackElo "2040"]
+[Annotator "Doe,John"]
+[PlyCount "128"]
+[EventDate "2012.??.??"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. h3 O-O 8. Bc4
+Nc6 9. O-O Bd7 10. Bb3 Qa5 11. f4 Rac8 12. Qd3 a6 13. a3 Qh5 14. Nd5 Nxd5 15.
+exd5 Nxd4 16. Bxd4 Bb5 17. c4 Qxd5 18. cxd5 Bxd3 19. Bxg7 Kxg7 20. Rfe1 Kf6 21.
+Rac1 h5 22. Kf2 Rc5 (22... h4 23. Ke3 Bf5 24. Kd4 Rxc1 25. Rxc1 Rc8 26. Re1 Rg8
+27. Rf1 g5 28. fxg5+ Rxg5 29. Bc2 e5+ 30. Kc3 (30. dxe6 fxe6) 30... Kg6 $19)
+23. Rxc5 dxc5 24. g4 c4 25. Bd1 (25. g5+ Kf5 26. Kf3 (26. Kg3 h4+ 27. Kf3 f6
+28. Bd1 fxg5 29. Rxe7 gxf4 30. d6 Rd8) 26... f6 27. Bd1 Re8 28. gxf6 Kxf6 29.
+Re6+ Kf7 30. Rb6 Rd8 31. Rxb7 Rxd5 32. Ba4 Bf5) 25... hxg4 26. hxg4 Re8 27. Bf3
+(27. g5+ Kg7 28. Bg4 Bf5 (28... f5 29. gxf6+ Kxf6 30. Re6+ Kf7 31. Rb6 $11) 29.
+Bxf5 gxf5 30. Re5 Kg6 31. Ke3 e6 32. dxe6 Rxe6 33. Kd4 Rxe5 $19) 27... b5 28.
+Re5 e6 29. Ke3 Rb8 30. g5+ Ke7 31. Kd4 Kd6 32. dxe6 fxe6 33. Rc5 Rf8 34. Rc6+
+Kd7 35. Ke3 e5 36. Rxa6 (36. Rf6 Rxf6 37. gxf6 exf4+ 38. Kxf4 Ke6 39. Kg5 Kf7
+40. Bc6 $11) 36... exf4+ 37. Kd4 Kc7 38. Kc3 (38. Rc6+ Kd7 (38... Kd8 39. Rc5
+Rf5 40. Rxf5 Bxf5) 39. Rc5) 38... Re8 39. Ra7+ Kd6 40. Ra6+ Kc7 41. Ra7+ Kb6
+42. Rb7+ Kc5 43. Rc7+ Kd6 44. Rc6+ Kd7 45. Rf6 Re5 46. Rxf4 Rxg5 47. Be4 (47.
+a4 Rg3 48. Kb4 (48. axb5 Be2 49. Rd4+ Kc7 50. b6+ Kxb6) 48... g5 49. Rd4+ Kc7
+50. Bg4 bxa4 (50... Rg2 $2 51. axb5 Rxb2+ 52. Kc5 Rf2) 51. Kxa4 $15) 47... Rg3
+48. Bxd3 Rxd3+ 49. Kc2 Ke6 50. Rf8 g5 51. Rg8 Kf5 52. Rf8+ Ke4 53. Re8+ Kf4 54.
+Rg8 g4 55. Rf8+ Ke3 56. Re8+ Kf2 57. Rf8+ Rf3 58. Rd8 g3 59. Rd2+ Kg1 60. Kb1
+g2 61. Ka2 Kf1 62. Rd1+ Kf2 63. Rd2+ Kg3 64. Rd1 Rf1 0-1
+

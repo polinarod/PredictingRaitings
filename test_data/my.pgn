@@ -1,0 +1,242 @@
+[Event "Первенство Мира 2012"]
+[Site "?"]
+[Date "2012.11.08"]
+[Round "1"]
+[White "Poteat, Lilia"]
+[Black "Rodionova"]
+[Result "0-1"]
+[ECO "B35"]
+[WhiteElo "1766"]
+[PlyCount "128"]
+[EventDate "2012.??.??"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. h3 O-O 8. Bc4
+Nc6 9. O-O Bd7 10. Bb3 Qa5 11. f4 Rac8 12. Qd3 a6 13. a3 Qh5 14. Nd5 Nxd5 15.
+exd5 Nxd4 16. Bxd4 Bb5 17. c4 Qxd5 18. cxd5 Bxd3 19. Bxg7 Kxg7 20. Rfe1 Kf6 21.
+Rac1 h5 22. Kf2 Rc5 (22... h4 23. Ke3 Bf5 24. Kd4 Rxc1 25. Rxc1 Rc8 26. Re1 Rg8
+27. Rf1 g5 28. fxg5+ Rxg5 29. Bc2 e5+ 30. Kc3 (30. dxe6 fxe6) 30... Kg6 $19)
+23. Rxc5 dxc5 24. g4 c4 25. Bd1 (25. g5+ Kf5 26. Kf3 (26. Kg3 h4+ 27. Kf3 f6
+28. Bd1 fxg5 29. Rxe7 gxf4 30. d6 Rd8) 26... f6 27. Bd1 Re8 28. gxf6 Kxf6 29.
+Re6+ Kf7 30. Rb6 Rd8 31. Rxb7 Rxd5 32. Ba4 Bf5) 25... hxg4 26. hxg4 Re8 27. Bf3
+(27. g5+ Kg7 28. Bg4 Bf5 (28... f5 29. gxf6+ Kxf6 30. Re6+ Kf7 31. Rb6 $11) 29.
+Bxf5 gxf5 30. Re5 Kg6 31. Ke3 e6 32. dxe6 Rxe6 33. Kd4 Rxe5 $19) 27... b5 28.
+Re5 e6 29. Ke3 Rb8 30. g5+ Ke7 31. Kd4 Kd6 32. dxe6 fxe6 33. Rc5 Rf8 34. Rc6+
+Kd7 35. Ke3 e5 36. Rxa6 (36. Rf6 Rxf6 37. gxf6 exf4+ 38. Kxf4 Ke6 39. Kg5 Kf7
+40. Bc6 $11) 36... exf4+ 37. Kd4 Kc7 38. Kc3 (38. Rc6+ Kd7 (38... Kd8 39. Rc5
+Rf5 40. Rxf5 Bxf5) 39. Rc5) 38... Re8 39. Ra7+ Kd6 40. Ra6+ Kc7 41. Ra7+ Kb6
+42. Rb7+ Kc5 43. Rc7+ Kd6 44. Rc6+ Kd7 45. Rf6 Re5 46. Rxf4 Rxg5 47. Be4 (47.
+a4 Rg3 48. Kb4 (48. axb5 Be2 49. Rd4+ Kc7 50. b6+ Kxb6) 48... g5 49. Rd4+ Kc7
+50. Bg4 bxa4 (50... Rg2 $2 51. axb5 Rxb2+ 52. Kc5 Rf2) 51. Kxa4 $15) 47... Rg3
+48. Bxd3 Rxd3+ 49. Kc2 Ke6 50. Rf8 g5 51. Rg8 Kf5 52. Rf8+ Ke4 53. Re8+ Kf4 54.
+Rg8 g4 55. Rf8+ Ke3 56. Re8+ Kf2 57. Rf8+ Rf3 58. Rd8 g3 59. Rd2+ Kg1 60. Kb1
+g2 61. Ka2 Kf1 62. Rd1+ Kf2 63. Rd2+ Kg3 64. Rd1 Rf1 0-1
+
+[Event "Первенство Мира 2012"]
+[Site "?"]
+[Date "2012.11.09"]
+[Round "2"]
+[White "Rodionova"]
+[Black "Бешукова, Екатерина."]
+[Result "1-0"]
+[ECO "B44"]
+[BlackElo "1878"]
+[PlyCount "49"]
+[EventDate "2012.??.??"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e6 5. c4 Nf6 6. Nxc6 bxc6 7. Bd3 d5 8.
+exd5 cxd5 9. Qe2 Bb4+ 10. Bd2 Bxd2+ 11. Nxd2 O-O 12. O-O Bb7 13. c5 a5 14. Bb5
+Qc7 15. Rac1 Bc6 16. a4 Rfe8 17. f4 e5 18. Bxc6 Qxc6 19. fxe5 Qxa4 20. Nf3 Ne4
+21. c6 Rac8 22. Qd3 Red8 23. c7 Re8 24. Qxd5 Qb4 25. Qc6 1-0
+
+[Event "Первенство Мира 2012"]
+[Site "?"]
+[Date "2012.11.10"]
+[Round "3"]
+[White "Rodionova"]
+[Black "Lei, Tingjie"]
+[Result "0-1"]
+[ECO "B32"]
+[BlackElo "2231"]
+[PlyCount "118"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e5 5. Nb5 a6 6. Nd6+ Bxd6 7. Qxd6 Qe7 8.
+Qc7 d5 9. Qxe7+ Ngxe7 10. Nc3 Nb4 11. Bd3 dxe4 12. Nxe4 O-O 13. O-O Nxd3 14.
+cxd3 Rd8 15. Rd1 Bf5 16. Be3 Nd5 17. Rac1 Nb4 18. Ng3 Be6 19. Rc7 b5 20. d4
+exd4 21. Rxd4 Rxd4 22. Bxd4 Rd8 23. Ne2 Bc4 24. Nc3 h5 25. Bb6 Rd2 26. h3 Rxb2
+27. a3 Nc2 28. Ne4 Kh7 29. a4 bxa4 30. Rxc4 a3 31. Nc3 Rxb6 32. Ra4 Rb3 33. Na2
+Rb1+ 34. Kh2 Rb6 35. Nc3 f6 36. Ra5 Kg6 37. g4 hxg4 38. hxg4 Rb3 39. Na2 Rb2
+40. Nc3 Nb4 41. Rxa3 Rxf2+ 42. Kg3 Rd2 43. Ra4 Rd3+ 44. Kf4 Rxc3 45. Rxb4 a5
+46. Rb7 a4 47. Ra7 a3 48. Ra6 Rc4+ 49. Kf3 Rc3+ 50. Kf4 Rb3 51. Ra7 Rd3 52. Ra5
+Rh3 53. Ra7 Kh6 54. Ra6 g5+ 55. Kf5 Rf3+ 56. Ke6 Kg6 57. Ke7 Re3+ 58. Kd6 Re4
+59. Rxa3 Rxg4 0-1
+
+[Event "Первенство Мира 2012"]
+[Site "?"]
+[Date "2012.11.11"]
+[Round "4"]
+[White "Cosman, Andreea-Marioara	"]
+[Black "Rodionova"]
+[Result "0-1"]
+[ECO "E81"]
+[WhiteElo "1914"]
+[PlyCount "84"]
+[EventDate "2012.??.??"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 c5 7. d5 a6 8. Bd3 e6
+9. a4 exd5 10. cxd5 Nbd7 11. Nge2 Ne5 12. O-O Bd7 13. Rb1 Qa5 14. Bc2 b5 15. b3
+Rab8 16. h3 Bc8 17. f4 Ned7 18. Na2 b4 19. Ng3 Re8 20. Qf3 Nxd5 21. Bf2 Nc3 22.
+Nxc3 bxc3 23. Rbd1 Qb4 24. h4 Nf6 25. f5 gxf5 26. Nxf5 Bxf5 27. Qxf5 Re5 28.
+Qf3 Nxe4 29. Be3 Rf8 30. Bf4 Re6 31. Bxe4 Qxe4 32. Qxe4 Rxe4 33. Bxd6 Bd4+ 34.
+Kh2 Rfe8 35. Bg3 Re2 36. Rc1 Rb2 37. Rf4 h6 38. Rcf1 f6 39. Rc1 Ree2 40. Rg4+
+Kf7 41. Bf4 h5 42. Rg3 Rxb3 0-1
+
+[Event "Первенство Мира 2012"]
+[Site "?"]
+[Date "2012.11.12"]
+[Round "5"]
+[White "Rodionova"]
+[Black "Xiao, ALice Huanyi"]
+[Result "1-0"]
+[ECO "B01"]
+[BlackElo "1843"]
+[PlyCount "67"]
+[EventDate "2012.??.??"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 c6 5. Nf3 Nf6 6. Bc4 Bf5 7. Bd2 e6 8.
+Bb3 Qc7 9. Qe2 Be7 10. h3 Nbd7 11. O-O-O O-O-O 12. Ne5 Nxe5 13. dxe5 Nd5 14. g4
+Bg6 15. f4 h5 16. Qf2 Nxc3 17. Bxc3 Be4 18. Rxd8+ Bxd8 19. Re1 Bd5 20. Qxa7
+Bxb3 21. axb3 hxg4 22. hxg4 Rh4 23. Rd1 Rh8 24. Bb4 Qb8 25. Qa3 f6 26. Bf8 Rxf8
+27. Qxf8 Qc7 28. Rd6 fxe5 29. fxe5 Qe7 30. Qxe7 Bxe7 31. Rxe6 Kd7 32. Rg6 Bf8
+33. Kd2 Ke7 34. e6 1-0
+
+[Event "Первенство Мира 2012"]
+[Site "?"]
+[Date "2012.11.12"]
+[Round "6"]
+[White "Saikhanzaya, Ganbaatar"]
+[Black "Rodionova"]
+[Result "0-1"]
+[ECO "E97"]
+[WhiteElo "1904"]
+[PlyCount "130"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Be2 O-O 6. Nf3 e5 7. O-O Nc6 8. d5
+Ne7 9. b4 a5 10. Ba3 Nd7 11. bxa5 Rxa5 12. Bb4 Ra8 13. a4 f5 14. Ng5 Nf6 15. c5
+h6 16. cxd6 cxd6 17. Ne6 Qb6 18. Bb5 Bxe6 19. dxe6 Rfd8 20. a5 Qd4 21. Qb3 Nxe4
+22. Rad1 Nc5 23. Qa3 Qh4 24. Bxc5 dxc5 25. Qxc5 Rxd1 26. Rxd1 Rc8 27. Qa3 e4
+28. g3 Qf6 29. Ne2 g5 30. Qe3 Qe5 31. Bd7 Rc2 32. Kf1 Qxa5 33. Be8 b5 34. Bf7+
+Kh7 35. Rd7 Rc7 36. g4 Qa1+ 37. Kg2 Qe5 38. Rxc7 Qxc7 39. gxf5 Qe5 40. Ng3 b4
+41. Qxe4 Qxe4+ 42. Nxe4 Nxf5 43. Nc5 Bf8 44. Nb3 Kg7 45. Be8 Kf6 46. Bd7 Ng7
+47. Kf3 Nxe6 48. Ke4 h5 49. f3 h4 50. h3 g4 51. fxg4 Ng5+ 52. Kd3 Nxh3 53. Nd4
+Ng5 54. Nf5 h3 55. Bc6 Ke5 56. Nh4 Kf6 57. Bh1 Nf7 58. Nf3 Ne5+ 59. Ke2 Nxg4
+60. Nd4 Ke5 61. Nc6+ Kf4 62. Bd5 Ne3 63. Nxb4 Bxb4 64. Bh1 Bc5 65. Kf2 Ng2+ 0-1
+
+[Event "Первенство Мира 2012"]
+[Site "?"]
+[Date "2012.11.14"]
+[Round "7"]
+[White "Rodionova"]
+[Black "Saduakassova, Dinara"]
+[Result "1-0"]
+[ECO "C47"]
+[BlackElo "2297"]
+[PlyCount "85"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. d4 Bb4 5. d5 Ne7 6. Nxe5 Nxe4 7. Qf3 Nf6 8.
+Bc4 O-O 9. Bg5 Ng6 10. Nxg6 fxg6 11. O-O d6 12. Bd3 Qd7 13. Bxf6 Rxf6 14. Qe4
+Bxc3 15. bxc3 Qf7 16. Rae1 Bf5 17. Qd4 Bxd3 18. cxd3 c5 19. dxc6 bxc6 20. Re2
+c5 21. Qe4 Rf8 22. f3 Rf5 23. Qe6 Qxe6 24. Rxe6 Rd5 25. Rb1 Rf6 26. Re7 Rxd3
+27. Rb8+ Rf8 28. Rbb7 Kh8 29. Rxg7 Re8 30. Rxh7+ Kg8 31. Rbg7+ Kf8 32. Rxa7 Kg8
+33. Rhd7 Rd2 34. h4 Kf8 35. Rf7+ Kg8 36. Rg7+ Kh8 37. Rxg6 Re1+ 38. Kh2 Re3 39.
+Rf6 Kg8 40. h5 Re5 41. Rg6+ Kh8 42. h6 Rh5+ 43. Kg3 1-0
+
+[Event "Первенство Мира 2012"]
+[Site "?"]
+[Date "2012.11.15"]
+[Round "8"]
+[White "Стяжкина, Анна."]
+[Black "Родионова"]
+[Result "1-0"]
+[ECO "B38"]
+[WhiteElo "2113"]
+[PlyCount "81"]
+[EventDate "2012.??.??"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. c4 Bg7 6. Be3 Nf6 7. Nc3 d6 8. Be2
+O-O 9. O-O Bd7 10. f3 (10. Nc2 Be6 11. f3 Nd7 12. Qd2 Qa5 $11) 10... Nxd4 11.
+Bxd4 a5 12. Rc1 Bc6 13. Qd2 Nd7 14. Bxg7 $6 (14. Be3 a4 15. b3 axb3 16. axb3
+Nc5 $15) 14... Kxg7 15. Rfd1 (15. Qd4+ Kg8 16. f4 Qb6 17. Qxb6 Nxb6 18. Nd5
+Nxd5 19. exd5 Bd7 $14) 15... Qb6+ 16. Kh1 Kg8 $6 (16... a4 $5) (16... Nc5 17.
+Qd4+ Kg8 18. e5 Qxb2 19. exd6 exd6 20. Qxd6 Rad8 21. Qxc5 (21. Qxd8 Rxd8 22.
+Rxd8+ Kg7 23. Rdd1 Na4 $17) 21... Rxd1+ 22. Rxd1 Qxc3 $15) 17. b3 Rfc8 18. f4
+a4 19. Bg4 e6 (19... Rd8 $5 20. Bxd7 Rxd7 21. bxa4 Bxa4 22. Nd5 Qa5 $11) 20.
+Qxd6 Nc5 21. b4 (21. bxa4 Rd8 22. Qe7 Nd3 $17) (21. f5 Rd8 22. Qe7 exf5 23.
+exf5 Nd3 $17) 21... Qxb4 22. Nd5 (22. Be2 Rd8 23. Qxd8+ Rxd8 24. Rxd8+ Kg7 25.
+e5 Qb2 $17) 22... exd5 23. Bxc8 Rxc8 24. cxd5 Be8 25. h3 b6 26. Qe7 Qb5 27. d6
+(27. f5 Qe2 28. fxg6 hxg6 29. d6 Bd7 $17) 27... Bd7 28. e5 Re8 29. Qh4 Qb2 30.
+Rb1 Qxa2 31. Rxb6 Qc2 32. Rf1 (32. Ra1 Nd3 33. Qg3 Qc3 34. Rbb1 Qd4 $17) 32...
+a3 33. Qg3 a2 34. Qa3 Qe2 $4 (34... Na4 $5 35. Rb4 Bc6 36. Rg1 Ra8 $19) 35. Ra1
+Na4 $2 (35... Nd3 36. Qxa2 Qe4 37. Rf1 Nxf4 $17) 36. Rb4 Bc6 37. Qxa2 Qxa2 38.
+Rxa2 Nc3 39. Rc2 Nd5 40. Rd4 Ba8 (40... Bb7 41. d7 Rd8 42. Rxd5 $18) 41. d7 1-0
+
+[Event "Первенство Мира 2012"]
+[Site "?"]
+[Date "2012.11.16"]
+[Round "9"]
+[White "Родионова"]
+[Black "Танцюра, Мария."]
+[Result "1-0"]
+[ECO "B06"]
+[BlackElo "2189"]
+[PlyCount "61"]
+[EventDate "2012.??.??"]
+
+1. e4 g6 2. d4 d6 3. Nf3 Bg7 4. Bc4 Nf6 5. Qe2 c6 6. Bb3 e5 7. Nbd2 Nh5 8. c3
+Nf4 9. Qf1 exd4 10. Nxd4 Qe7 11. h4 d5 12. g3 Bxd4 13. cxd4 Ne6 14. Qd3 dxe4
+15. Qe3 Na6 16. O-O f5 17. f3 g5 18. h5 Ng7 19. g4 Nc7 20. h6 Nge6 21. gxf5 Nf4
+22. Nxe4 Kf8 23. f6 Nh3+ 24. Kh1 Qd8 25. Bd2 a5 26. Qc3 Ne6 27. Bxe6 Bxe6 28.
+Qc5+ Kg8 29. Bxg5 b6 30. Qe5 Qd5 31. f7+ 1-0
+
+[Event "Первенство Мира 2012"]
+[Site "?"]
+[Date "2012.11.17"]
+[Round "10"]
+[White "Бивол, Алина."]
+[Black "Родионова"]
+[Result "0-1"]
+[ECO "B34"]
+[WhiteElo "2172"]
+[PlyCount "82"]
+[EventDate "2012.??.??"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. Nc3 Bg7 6. Be3 Nf6 7. Nxc6 bxc6 8.
+e5 Nd5 9. Nxd5 cxd5 10. Qxd5 Rb8 11. O-O-O Qc7 12. f4 O-O 13. Qc5 Qb7 14. Bd4 (
+14. b3 d6 15. exd6 exd6 16. Qxd6 (16. Qxa7 Qc6 17. Qxb8 Bf5 18. Qxf8+ Kxf8 19.
+Bd3 Qc3 20. Rhg1 Bg4) 16... Bf5) 14... Qe4 15. Kb1 Qxf4 16. g3 Qg4 17. Bc4 Bb7
+18. Rhf1 Bg2 19. h3 Bxh3 20. Rfe1 Rfc8 21. Qxa7 Qxg3 22. Re3 Qg2 23. Bc3 Bf5
+24. Re2 Qg4 25. Rd4 Qg1+ 26. Re1 Qf2 27. Qa4 h5 28. Rf1 Qg3 29. Bb3 Bxe5 30.
+Rc4 Bxc3 31. bxc3 Bxc2+ 32. Ka1 Bxb3 33. axb3 Qg2 34. Rxc8+ Rxc8 35. Qf4 f6 36.
+Rf2 Qc6 37. Rf3 Kg7 38. Kb2 Ra8 39. Qe3 Qd6 40. b4 e5 41. Qe4 Qd2+ 0-1
+
+[Event "Первенство Мира 2012"]
+[Site "?"]
+[Date "2012.11.18"]
+[Round "11"]
+[White "Xiao, Yiyi"]
+[Black "Родионова"]
+[Result "0-1"]
+[ECO "E62"]
+[WhiteElo "2136"]
+[PlyCount "96"]
+[EventDate "2012.??.??"]
+
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 O-O 5. Nc3 d6 6. Nf3 Nc6 7. d5 Na5 8. Nd2
+Nd7 (8... c6 9. O-O (9. b4 Ng4 10. Bb2 Qb6 $19) 9... cxd5 10. cxd5 Bd7 11. b4
+Rc8) 9. e4 c6 10. O-O cxd5 11. Nxd5 Nb6 12. Qe2 Na4 13. Rb1 Be6 14. b4 Nc6 15.
+Qd3 a6 16. Qc2 Nb6 17. Bb2 Bxb2 18. Qxb2 Ne5 19. Qd4 Nbd7 20. f4 Nc6 21. Qf2 a5
+22. b5 Bxd5 23. cxd5 Nb4 24. a3 Nd3 25. Qe2 N3c5 26. e5 Nb6 27. Rbd1 Nca4 28.
+Ne4 Rc8 29. exd6 exd6 30. f5 Nc3 31. Nxc3 Rxc3 32. Qd2 Rxa3 33. f6 Kh8 34. Qh6
+Rg8 35. Rd4 Qf8 36. Qc1 Rb3 37. Rh4 a4 38. Rff4 g5 39. Be4 Rg6 40. Bxg6 fxg6
+41. f7 Nd7 42. Qa1+ Ne5 43. Rhg4 gxf4 44. gxf4 Qxf7 45. fxe5 Qf5 46. exd6+ Kg8
+47. Qxa4 Qb1+ 48. Kf2 Qc2+ 0-1
+
