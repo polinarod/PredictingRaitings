@@ -30,7 +30,8 @@ def fileMessage(bot, update):
     file = bot.get_file(pgn_id)
     file.download('game.pgn')
 
-    get_rating('game.pgn')
+    result=get_rating('game.pgn')
+    bot.send_message(chat_id=update.message.chat_id, text=result)
 
    # test_response=requests.get('https://api.telegram.org/file/bot'+token+'/getFile?file_id='+pgn_id)
     #https: // api.telegram.org / bot846868641: AAFtwHuP6yme_nRtAfgIIPilVNyQcEXaTgw / documents / file_0.pgn
