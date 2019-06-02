@@ -8,7 +8,7 @@ from collections import defaultdict, Counter
 import pickle
 import scipy.stats
 
-def get_rating(filename):
+def get_rating(filename,mode='ratings'):
     engine = chess.engine.SimpleEngine.popen_uci(r'C:\Users\Asus\PredictingRatings\stockfish-10-win\Windows\stockfish_10_x64.exe')
 
     with open(filename) as pgn:
@@ -19,11 +19,22 @@ def get_rating(filename):
     scores=[]
     move_scores=[]
 
+    if mode=='names':
+        white=game.headers['White']
+        black = game.headers['Black']
+        names = 'Белые: ' + str(white) + '\nЧерные: ' + str(black)
+        return names
+
+
     if 'WhiteElo' in game.headers:
-        white_elo=int(game.headers['WhiteElo'])
+        white_elo=int(int(game.headers['WhiteElo']))
     if 'BlackElo' in game.headers:
         black_elo=int(game.headers['BlackElo'])
     result=game.headers['Result']
+
+    if mode=='current':
+        ratings = 'Текущий рейтинг белых: ' + str(white_elo) + '\nТекущий рейтинг черных: ' + str(black_elo)
+        return ratings
 
     node = game.variation(0)
     sans = []
@@ -447,5 +458,5 @@ def get_rating(filename):
     result = 'Рейтинг белых: '+str(int(white_rating[0]))+'\nРейтинг черных: '+str(int(black_rating[0]))
     return result
 
-ratings=get_rating(r'C:\Users\Asus\PredictingRatings\test_data\for_bot5.pgn')
+ratings=get_rating(r'C:\Users\Asus\PredictingRatings\test_data\for_bot1.pgn','ratings')
 print(ratings)
